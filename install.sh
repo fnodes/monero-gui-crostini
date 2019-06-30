@@ -24,7 +24,7 @@ Type=Application
 Name=Monero Graphical Wallet
 GenericName=Monero Graphical Wallet
 Comment=Manage your Monero
-Exec=${INSTALL_DIR}/monero-gui-${VERSION}/start-gui.sh %U
+Exec=env QMLSCENE_DEVICE=softwarecontext ${INSTALL_DIR}/monero-gui-${VERSION}/start-gui.sh %U
 Terminal=false
 StartupNotify=true
 EOF
