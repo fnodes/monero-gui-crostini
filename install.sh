@@ -2,14 +2,14 @@
 set -e
 
 export INSTALL_DIR=$HOME
-export VERSION=v0.14.1.0
+export VERSION=v0.15.0.1.
 export FILENAME=monero-gui-linux-x64-${VERSION}.tar.bz2
 
 echo "Fetching Monero GUI $VERSION"
 
 cd $INSTALL_DIR
 
-curl -L https://github.com/monero-project/monero-gui/releases/download/${VERSION}/${FILENAME} > $FILENAME
+curl -L https://downloads.getmonero.org/gui/linux64 > $FILENAME
 
 echo "Extracting the archive"
 
