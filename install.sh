@@ -32,4 +32,7 @@ EOF
 echo "Install Desktop Shortcut"
 sudo cp monero.desktop /usr/share/applications/
 
+echo "Removing downloaded archive"
+rm $FILENAME
+
 echo "Done"
