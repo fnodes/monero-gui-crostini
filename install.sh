@@ -21,13 +21,17 @@ cat <<EOF >> monero.desktop
 [Desktop Entry]
 Version=1.0
 Type=Application
-Name=Monero Graphical Wallet
-GenericName=Monero Graphical Wallet
+Name=Monero
+GenericName=Monero
+Icon=${INSTALL_DIR}/monero-gui-${VERSION}/xmr.png
 Comment=Manage your Monero
-Exec=env QMLSCENE_DEVICE=softwarecontext ${INSTALL_DIR}/monero-gui-${VERSION}/monero-wallet-gui %U
+Exec=${INSTALL_DIR}/monero-gui-${VERSION}/monero-wallet-gui %U
 Terminal=false
 StartupNotify=true
 EOF
+
+echo "Install Desktop Icon"
+cp xmr.png ${INSTALL_DIR}/monero-gui-${VERSION}/
 
 echo "Install Desktop Shortcut"
 sudo cp monero.desktop /usr/share/applications/
