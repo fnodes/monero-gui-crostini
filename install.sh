@@ -10,7 +10,7 @@ echo "Fetching Monero GUI $VERSION"
 
 cd $INSTALL_DIR
 
-curl -L https://downloads.getmonero.org/gui/linux64 > $FILENAME
+curl -L --retry 5 https://downloads.getmonero.org/gui/linux64 > $FILENAME
 
 echo "Extracting the archive"
 
