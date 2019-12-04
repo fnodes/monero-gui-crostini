@@ -36,6 +36,7 @@ cp $REPO_DIR/xmr.png ${INSTALL_DIR}/monero-gui-${VERSION}/
 
 echo "Install Desktop Shortcut"
 sudo cp monero.desktop /usr/share/applications/
+rm monero.desktop
 
 echo "Removing downloaded archive"
 rm $FILENAME
