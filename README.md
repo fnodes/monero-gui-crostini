@@ -43,11 +43,11 @@ The Monero GUI application now has a shortcut in the Chrome application launcher
 
   * Open the Application Menu
   * Search 'Monero'
-  * Launch the 'Monero Graphical Client' application
+  * Launch the 'Monero' application
 
-### Configuration
+## Configuration
 
-#### Remote Node
+### Remote Node
 If you don't have enough resources to sync the entire blockchain, configure a remote node. This option can be found under the 'Settings' menu.
 
 Fullnodes.io maintains an open source containerized [Monero daemon](https://github.com/fnodes/monero). The resulting image is only ~66MB compressed and is a great option for running a headless node.
