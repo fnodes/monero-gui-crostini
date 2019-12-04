@@ -1,6 +1,8 @@
 # Monero GUI on a Chromebook with Crostini
 [Crostini](https://chromium.googlesource.com/chromiumos/docs/+/master/containers_and_vms.md#Crostini) is the umbrella term for making Linux application support easy to use and integrating well with Chrome OS.
 
+![Image of Monero GUI on ChromeOS](screenshot.png)
+
 ## Security
 While running arbitrary code is normally a security risk, the Crostini project has come up with a runtime model that sufficiently mitigates & contains the code. The VM is the security boundary, so everything inside of the VM is considered untrusted. The current VM guest image is also running our hardened kernel to further improve the security of the containers, but we consider this a nice feature rather than relying on it for overall system security.
 
