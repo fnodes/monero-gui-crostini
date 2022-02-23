@@ -2,7 +2,7 @@
 set -e
 
 export INSTALL_DIR=$HOME
-export VERSION=v0.17.2.2
+export VERSION=v0.17.3.1
 export FILENAME=monero-gui-linux-x64-${VERSION}.tar.bz2
 export REPO_DIR=$(pwd)
 
