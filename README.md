@@ -26,7 +26,7 @@ This may take a moment, as the virtual machine and container need to be started 
 This helper will pull the latest Monero GUI release tar ball, extract, and configure the desktop shortcut.
 
 ```
-git clone https://github.com/fnodes/monero-gui-crostini
+git clone https://github.com/herbertwells/monero-gui-crostini
 ```
 
 ```
